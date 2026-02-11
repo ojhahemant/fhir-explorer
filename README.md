@@ -1,6 +1,6 @@
 # FHIR Explorer
 
-A comprehensive FHIR (Fast Healthcare Interoperability Resources) learning application built with React and TypeScript. This application connects to a live FHIR server (HAPI FHIR R4) and provides interactive tools to explore and understand FHIR concepts.
+A comprehensive FHIR (Fast Healthcare Interoperability Resources) learning application built with React and TypeScript. This application connects to a live FHIR server (HAPI FHIR R4) and provides interactive tools to explore and understand FHIR concepts. THIS IS A TEST.
 
 ## Features
 
