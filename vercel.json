@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd fhir-explorer && npm install && npm run build",
+  "outputDirectory": "fhir-explorer/dist",
+  "installCommand": "cd fhir-explorer && npm install",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
