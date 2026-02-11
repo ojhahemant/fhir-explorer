@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import {
-  User, Activity, FileText, Pill, Stethoscope, Building2, MapPin,
+  User, Activity, FileText, Pill, Stethoscope, Building2,
   AlertTriangle, Syringe, ClipboardList, Heart, ChevronDown, ChevronRight,
-  ExternalLink, Code, Database, Link2, BookOpen
+  ExternalLink, Code, Database, BookOpen
 } from 'lucide-react';
 
 // Comprehensive FHIR Resource Knowledge Base

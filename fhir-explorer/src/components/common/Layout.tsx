@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { Home, Users, Search, BookOpen, Activity } from 'lucide-react';
+import { Home, Users, Search, BookOpen, Activity, Database } from 'lucide-react';
 
 export function Layout() {
   return (
@@ -33,6 +33,11 @@ export function Layout() {
           <NavLink to="/learn" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
             <BookOpen size={20} />
             <span>Learn FHIR</span>
+          </NavLink>
+
+          <NavLink to="/knowledge" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+            <Database size={20} />
+            <span>Knowledge Base</span>
           </NavLink>
         </div>
 

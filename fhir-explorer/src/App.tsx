@@ -6,6 +6,7 @@ import { PatientList } from './components/patients/PatientList';
 import { PatientDetail } from './components/patients/PatientDetail';
 import { FhirExplorer } from './components/explorer/FhirExplorer';
 import { LearnFhir } from './components/learn/LearnFhir';
+import { ResourceKnowledgeBase } from './components/knowledge/ResourceKnowledgeBase';
 import './App.css';
 
 const queryClient = new QueryClient({
@@ -28,6 +29,7 @@ function App() {
             <Route path="patients/:id" element={<PatientDetail />} />
             <Route path="explorer" element={<FhirExplorer />} />
             <Route path="learn" element={<LearnFhir />} />
+            <Route path="knowledge" element={<ResourceKnowledgeBase />} />
           </Route>
         </Routes>
       </BrowserRouter>
